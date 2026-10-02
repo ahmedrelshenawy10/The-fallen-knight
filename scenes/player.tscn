@@ -70,6 +70,9 @@ animations = [{
 radius = 5.0
 
 [node name="player" type="CharacterBody2D" unique_id=1569908321]
+process_mode = 3
+physics_interpolation_mode = 1
+z_index = 5
 script = SubResource("GDScript_3vyb7")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=648679065]
